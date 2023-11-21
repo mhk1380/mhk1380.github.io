@@ -1,0 +1,96 @@
+*{
+    font-family: sans-serif ;
+}
+header{
+    color: red;
+    background-color: rgb(236, 236, 236);
+    border: 10px dashed gray;
+    margin-bottom: 50px;
+}
+nav{
+    color: blue;
+    border-bottom: 0.5rem solid rgb(143, 110, 235);
+    border-top: 0.5rem solid rgb(143, 110, 235);
+    padding-left: 12px;
+    margin-bottom: 10px;
+}
+div .myname .mohammadkarimi{
+    color: green;
+}
+hr{
+    border-bottom: 0.5rem dotted rgb(255, 134, 134);
+    margin-top: 50px;
+    margin-bottom: 50px;;
+}
+.mybirthday .birthday-date{
+    color: rgb(0, 109, 0);
+    background-color: rgb(226, 226, 226);
+}
+.social-media{
+    color: blue;
+}
+.social-media-title{
+    color: green;
+    background-color: rgb(222, 255, 131);
+}
+table{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.fav-pic{
+    background-color: rgb(255, 161, 197);
+}
+table .clk-more{
+    background-color: rgb(0, 238, 255);
+    color: blue;
+}
+section > h3{
+    color: rgb(255, 94, 0);
+}
+section > p > a{
+    color: rgb(118, 0, 134);
+}
+div h3 + p{
+    background-color: yellow;
+}
+section h3 ~ p{
+    color: rgb(56, 136, 103);
+}
+center .table-title-images{
+    background-color: rgb(148, 148, 253);
+    border: 5px dashed rgb(0, 0, 251);
+    padding: 10px;
+    margin-top: 2rem;
+}
+footer{
+    color: rgb(55, 0, 255);
+    background-color: rgb(236, 236, 236);
+    border: 10px dashed gray;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.menu-items{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 40px;
+}
+
+.social-media-items{
+    display: grid;
+    grid-template-columns: 2fr ;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 25px;
+}
+.img-size-type{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 200px 1fr 1fr ;
+    row-gap: 0;
+}
